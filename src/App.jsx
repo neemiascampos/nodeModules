@@ -1,8 +1,12 @@
-function App() {
-  const [count, setCount] = useState(0)
+import qrCode from './assets/qr-code.png'
 
+function App() {
   return (
-      <h1>teste</h1>
+      <main>
+        <div>
+          <img src={qrCode} alt="" />
+        </div>
+      </main>
   )
 }
 

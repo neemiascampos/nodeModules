@@ -1,8 +1,9 @@
-export function Rectangle(props){
+export function Rectangle(type, number, icon){
     return(
         <div>
-            <span>{props.type}</span>
-            <strong>{props.number} / 100</strong>
+            <img src={icon} alt="" />
+            <span>{type}</span>
+            <strong> {number} / 100</strong>
         </div>
     )
 }

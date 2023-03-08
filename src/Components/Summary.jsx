@@ -1,9 +1,10 @@
 import { Rectangle } from "./Rectangle"
 
-import iconReaction from '../assets/icon-Reaction.svg'
-import iconMemory  from '../assets/icon-Memory.svg'
-import iconVerbal  from '../assets/icon-Verbal.svg'
+import iconReaction from '../assets/icon-reaction.svg'
+import iconMemory  from '../assets/icon-memory.svg'
+import iconVerbal  from '../assets/icon-verbal.svg'
 import iconVisual  from '../assets/icon-visual.svg'
+
 export function Summary(){
     return(
         <section>
